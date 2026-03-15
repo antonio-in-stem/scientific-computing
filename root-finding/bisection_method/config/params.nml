@@ -1,0 +1,6 @@
+&configuracion
+    extremo_a = 1.0,
+    extremo_b = 2.0,
+    tolerancia = 1.0e-7,
+    nombre_metodo = 'Biseccion' ! Puedes poner comentarios aquí
+/

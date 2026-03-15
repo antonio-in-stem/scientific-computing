@@ -1,0 +1,14 @@
+ set title 'Funcion y una raiz'
+ set terminal png
+ set output 'out/grafica.png'
+ set xlabel 'x'
+ set ylabel 'y'
+ set xtics
+ set ytics
+ set grid
+ set xrange [-10:10]
+ set yrange [-5:10]
+ set yzeroaxis lw 3 lc rgb 'black'
+ unset key
+ plot x**6-4*x**4+x**2+6 lw 3, 'out/result.txt' u 1:2 w lp ps 2 pt 7 lc rgb 'black'
+ replot 0 lw 5
